@@ -18,10 +18,13 @@ public class HesapMakinesi {
     }
 
     public static void main(String[] args) {
-        HesapMakinesi nm = new HesapMakinesi();
-        System.out.println(nm.topla(5,7));
-        System.out.println(nm.carpma(5,10));
-        System.out.println(nm.bolme(7,2));
-        System.out.println(nm.cikar(7,5));
+        HesapMakinesi hm = new HesapMakinesi();
+        System.out.println(hm.topla(5,7));
+        System.out.println(hm.carpma(5,10));
+        System.out.println(hm.bolme(7,2));
+        System.out.println(hm.cikar(7,5));
+
+        int sonuc = hm.topla(9,11);
+        System.out.println("Sonuç: "+sonuc);
     }
 }
