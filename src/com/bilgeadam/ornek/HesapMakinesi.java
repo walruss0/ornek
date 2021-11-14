@@ -9,7 +9,7 @@ public class HesapMakinesi {
         return sayi1+sayi2;
     }
 
-    public int topla(double sayi1, double sayi2){
+    public double topla(double sayi1, double sayi2){
         System.out.println("double topla çalıştı");
         return sayi1+sayi2;
     }
