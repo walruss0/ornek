@@ -1,5 +1,7 @@
 package com.bilgeadam.ornek;
 
+import com.bilgeadam.ortak.Ortak;
+
 import java.util.Locale;
 
 public class KucukBuyukHarfeCevirme {
@@ -21,5 +23,6 @@ public class KucukBuyukHarfeCevirme {
         Locale localeTR = new Locale("tr","TR");
         String kelime1 = "izinli İSTANBUL";
         System.out.println(kelime1.toUpperCase(localeTR));
+        System.out.println(Ortak.kucukHarfeCevir("iğneli ŞEMSİYE"));
     }
 }
